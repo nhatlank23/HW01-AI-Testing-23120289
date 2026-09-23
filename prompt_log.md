@@ -56,9 +56,31 @@
 
 ## Log 05
 - Mốc thời gian chính xác: `14:43 23/09/2026`
-- Tên công cụ sử dụng: `Github copilot`
+- Tên công cụ sử dụng: `Gemini`
 - Câu prompt gửi đi nguyên văn:
 
 > Vẽ cho tôi một sơ đồ tư duy (mindmap) bằng định dạng Mermaid thể hiện quy trình kiểm thử phần mềm theo chuẩn ISTQB Certified Tester Foundation Level (CTFL) mới nhất, bao gồm các vai trò và giai đoạn chính.
 
 - Tóm tắt phản hồi của AI: Trả về đoạn mã code tạo sơ đồ tư duy Mermaid về quy trình và vai trò QA/QC theo chuẩn ISTQB CTFL.
+
+## Log 06
+- Mốc thời gian chính xác: `15:14 23/09/2026`
+- Tên công cụ sử dụng: `Claude`
+- Câu prompt gửi đi nguyên văn:
+
+> Hãy đọc yêu cầu của đề bài này và tạo khung sườn cho báo cáo của tôi, yêu cầu rõ ràng, layout sạch sẽ và đơn giản. Trích xuất file docs
+
+- Tóm tắt phản hồi của AI: Trả về một file docs với khung sườn có sẳn
+
+## Log 07
+- Mốc thời gian chính xác: `15:40 23/09/2026`
+- Tên công cụ sử dụng: `Gemini`
+- Câu prompt gửi đi nguyên văn:
+
+>Hãy thực hiện tìm kiếm theo yêu cầu sau: 
+>"Tìm 20 lỗi phần mềm (software defects) được công bố rộng rãi trong khoảng thời gian từ năm 2022 đến năm 2026.
+>Bắt buộc: Có ít nhất 5 lỗi liên quan trực tiếp đến AI / LLM (ảo tưởng thông tin - hallucination, tấn công prompt injection, thiên vị dữ liệu - bias).
+>Mỗi lỗi cần nêu rõ: Link nguồn tham khảo, mô tả chi tiết lỗi, mức độ nghiêm trọng (severity), hậu quả gây ra và giải pháp khắc phục."
+>Sau khi tìm xong hãy tạo google bảng gồm các cột sau: STT, Tên sự cố & Link nguồn, Mô tả sự cố, Mức độ & Hậu quả, Hướng khắc phục.
+
+- Tóm tắt phản hồi của AI: Trả về bảng thống kê chi tiết 20 sự cố phần mềm giai đoạn 2022–2026, bao gồm 6 sự cố đặc thù về AI/LLM và 14 lỗi phần mềm hệ thống lớn trên thế giới với đầy đủ link nguồn, phân tích mức độ nghiêm trọng và giải pháp khắc phục.
