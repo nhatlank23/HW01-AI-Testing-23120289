@@ -87,7 +87,7 @@
 
 ## Log 08
 - Mốc thời gian chính xác: `13:36 26/09/2026`
-- Tên công cụ sử dụng: `Claude`
+- Tên công cụ sử dụng: `gemini`
 - Câu prompt gửi đi nguyên văn:
 
 >Hãy viết 15 test cases kiểm thử chức năng và phi chức năng cho thiết bị Quạt đứng hãn Senko LTS1636 (Quạt lửng 7 cánh) theo cấu trúc: ID, Objective, Input, Steps, Expected Result, Actual Result, Verdict.
