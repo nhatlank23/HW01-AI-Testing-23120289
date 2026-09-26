@@ -84,3 +84,12 @@
 >Sau khi tìm xong hãy tạo google bảng gồm các cột sau: STT, Tên sự cố & Link nguồn, Mô tả sự cố, Mức độ & Hậu quả, Hướng khắc phục.
 
 - Tóm tắt phản hồi của AI: Trả về bảng thống kê chi tiết 20 sự cố phần mềm giai đoạn 2022–2026, bao gồm 6 sự cố đặc thù về AI/LLM và 14 lỗi phần mềm hệ thống lớn trên thế giới với đầy đủ link nguồn, phân tích mức độ nghiêm trọng và giải pháp khắc phục.
+
+## Log 08
+- Mốc thời gian chính xác: `13:36 26/09/2026`
+- Tên công cụ sử dụng: `Claude`
+- Câu prompt gửi đi nguyên văn:
+
+>Hãy viết 15 test cases kiểm thử chức năng và phi chức năng cho thiết bị Quạt đứng hãn Senko LTS1636 (Quạt lửng 7 cánh) theo cấu trúc: ID, Objective, Input, Steps, Expected Result, Actual Result, Verdict.
+
+- Tóm tắt phản hồi của AI: Trả về bảng 15 testcase đúng cấu trúc yêu cầu
